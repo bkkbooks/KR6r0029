@@ -1,0 +1,90 @@
+canonical_identifier: bkk:krp/KR6r0029/X/v1
+canonical_location: https://kanripo.org/bkk/KR6r0029/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 釋迦如來行蹟頌
+  identifiers:
+    krp: KR6r0029
+    cbeta: X75n1510
+    cbeta_old_id: X75n1510
+    authorityid: CA0003124
+    json_key: X1510
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X75/X75n1510.xml
+    old_id: X75n1510
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0029_000-X.yaml, hash: 'sha256:00e1836c683e3e3623b62d33351c3e1e47eb31e72d6529a0cc7fe988dda34a04'}
+  - {seq: 1, filename: KR6r0029_001-X.yaml, hash: 'sha256:f8b7cadedd050694c07f6023f2ef9edb8a6173d5f97d74a422aa22af6e493404'}
+  - {seq: 2, filename: KR6r0029_002-X.yaml, hash: 'sha256:5158ff321a620b464fda40e4d4266bc05ff7ffcbd8a081f9129d90c26e639268'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6r0029_000-X.markers.yaml, hash: 'sha256:0c4ee9c9e99e378695e700ba83962825fb53f3aa98d94a744547baaef969a719'}
+  - {seq: 1, role: markers, filename: assets/KR6r0029_001-X.markers.yaml, hash: 'sha256:261664ad280e798a5ec943d22e4d9bc260f611453471501f5ca64e6735e7a3bc'}
+  - {seq: 2, role: markers, filename: assets/KR6r0029_002-X.markers.yaml, hash: 'sha256:eb99e8f042bbfd8b87aca5d852d2d9e022e181032048aafa8bcca0896a91d61a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6r0029_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1510-A 釋迦如來行蹟頌序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6r0029_X_000-mulu-2
+    span:
+    - front
+    - 252
+    - 252
+  label: 自序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6r0029_X_000-mulu-3
+    span:
+    - front
+    - 921
+    - 921
+  label: 釋迦如來行蹟頌
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0029_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 21895
+  label: 釋迦如來行蹟頌卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6r0029_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 25805
+  label: 釋迦如來行蹟頌卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6r0029_X_002-mulu-1
+    span:
+    - body
+    - 25434
+    - 25434
+  label: No. 1510-B
+  type: mulu
+  level: 1
+hash: sha256:17b673ac57fd8b5e62458859ad5e022293c1878cad80d6862ad0db038bc2354d
